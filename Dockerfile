@@ -7,6 +7,7 @@ RUN dnf update -y && \
   dnf install -y \
     cmake \
     python-pip \
+    clang \
     git && \
   pip install conan && \
   rm -rf \
