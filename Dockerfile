@@ -5,6 +5,7 @@ ENV USER root
 
 RUN dnf update -y && \
   dnf install -y \
+    make \
     cmake \
     python-pip \
     clang \
