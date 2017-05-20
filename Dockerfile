@@ -10,7 +10,8 @@ RUN dnf update -y && \
     python-pip \
     clang \
     git \
-    mesa-libGL-devel mesa-libGLU-devel mesa-libGLw-devel mesa-libOSMesa-devel && \
+    mesa-libGL-devel mesa-libGLU-devel mesa-libGLw-devel mesa-libOSMesa-devel \
+    xorg-dev && \
   pip install -U pip setuptools && \
   pip install conan && \
   rm -rf \
