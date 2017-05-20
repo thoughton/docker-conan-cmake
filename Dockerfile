@@ -10,6 +10,7 @@ RUN dnf update -y && \
     python-pip \
     clang \
     git && \
+  pip install -U pip setuptools && \
   pip install conan && \
   rm -rf \
     /tmp/* \
