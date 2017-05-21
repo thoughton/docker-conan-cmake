@@ -14,7 +14,8 @@ RUN dnf update -y && \
     xorg-x11-server-devel \
     libXrandr-devel \
     libXinerama-devel \
-    libXcursor-devel && \
+    libXcursor-devel \
+    libXi-devel && \
   pip install -U pip setuptools && \
   pip install conan && \
   rm -rf \
