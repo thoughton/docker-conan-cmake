@@ -11,7 +11,7 @@ RUN dnf update -y && \
     clang \
     git \
     mesa-libGL-devel mesa-libGLU-devel mesa-libGLw-devel mesa-libOSMesa-devel \
-    xorg-dev && \
+    xorg-x11-server-devel && \
   pip install -U pip setuptools && \
   pip install conan && \
   rm -rf \
