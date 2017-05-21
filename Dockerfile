@@ -13,7 +13,8 @@ RUN dnf update -y && \
     mesa-libGL-devel mesa-libGLU-devel mesa-libGLw-devel mesa-libOSMesa-devel \
     xorg-x11-server-devel \
     libXrandr-devel \
-    libXinerama-devel && \
+    libXinerama-devel \
+    libXcursor-devel && \
   pip install -U pip setuptools && \
   pip install conan && \
   rm -rf \
